@@ -2,14 +2,19 @@ body {
   margin: 0 auto;
   padding: 0;
   font-family: sans-serif;
-  font-size: 18px;
-  background-color: gray;
-  color: #f2f4f7;
+  font-size: 20px;
+  background-image: url("https://searchengineland.com/figz/wp-content/seloads/2015/10/google-maps2-fade-ss-1920.jpg"); 
+  color: black;
+  width: 100%; 
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  opacity: 5;
 }
 link{
   color: white;
 }
-/***** Styles for the VenueList.js Page ******/
+/***** Styles for the google.js Page ******/
 
 h1{
   font-family: 'Open Sans', sans-serif;
@@ -50,19 +55,19 @@ li{
 span{
   padding: 10px;
 }
-.VenueList-leftList{
+.google-leftList{
   /* width: 30%; */
   height: 30%;
   display: inline-block;
   text-align: left;
 }
 
-.VenueList-leftList li{
+.google-leftList li{
   list-style: none;
   padding-right: 10px;
 }
 
-.VenueList-firstCol{
+.google-firstCol{
   width: 40%;
   height: 50px;
   font-weight: bold;
@@ -70,7 +75,19 @@ span{
   font-size: 20px;
 }
 
-.VenueList-secCol{
+.google-secCol{
   width: 60%;
   height: 50px;
+}
+
+.title-text {
+  font-size: 3.5em;
+  color: #e9eff9;
+  text-shadow: 3px 3px 4px black;
+}
+
+.title-text2 {
+  font-size: 1.5em;
+  color: #e9eff9;
+  text-shadow: 3px 3px 4px black;
 }

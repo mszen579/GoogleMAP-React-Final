@@ -74,30 +74,26 @@ class Google extends Component{
      }
   }
 
-  /*
-    @ desc adding form fields to accept user input (Location, Category, Distance) and
-      displaying the venue list using the map function
-  */
   render(){
     return(
       <div className="container page-content">
-        <h1> Google Finder </h1>
+        <h1 className="title-text"> Google Finder </h1>
         <form onSubmit={this.handleSubmit} id="getUserInput">
-              <div className="form-group">
+              <div className="title-text2">
                   <label htmlFor="inputLocation">Location</label>
                   <input type="text" name="location" value={this.state.data.location} onChange={this.handleChange} className="form-control" id="inputLocation" aria-describedby="emailHelp" placeholder="Enter the Location" />
                   <span className="text-danger"> {this.state.locationValidationMsg}</span>
 
               </div>
 
-              <div className="form-group">
+              <div className="title-text2">
                   <label htmlFor="inputCategory">Category</label>
                   <input type="text" name="category" value={this.state.data.category} onChange={this.handleChange} className="form-control" id="inputCategory" placeholder="Enter the Category" />
                   <span className="text-danger"> {this.state.categoryValidationMsg}</span>
               </div>
 
-              <div className="form-group">
-                  <label htmlFor="inputDistance">Distance Limit</label>
+              <div className="title-text2">
+                  <label htmlFor="inputDistance">Distance Limit in Meters</label>
                   <input type="number" name="distance" value={this.state.data.distance} onChange={this.handleChange} className="form-control" id="inputDistance" placeholder="Enter the distance limit in meter" />
               </div>
               <button type="submit" className="btn btn-primary">Search!</button>
