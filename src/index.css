@@ -32,15 +32,15 @@ li{
   padding: 1%;
 }
 #listArea{
-  background-color: #0f5a79;
+  background-color: gray;
   padding: 1%;
   margin: 1% auto;
   /* height: 200px; */
   border: 2px inset grey;
 }
 #listArea:hover{
-  background-color: #2c7a9b;
-  border: 4px inset #2c7a9b;
+  background-color: #gray;
+  border: 4px inset #white;
 }
 .venueLogo{
   width: 100px;
