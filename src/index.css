@@ -39,8 +39,8 @@ li{
   border: 2px inset grey;
 }
 #listArea:hover{
-  background-color: #gray;
-  border: 4px inset #white;
+  background-color: gray;
+  border: 4px inset white;
 }
 .venueLogo{
   width: 100px;
